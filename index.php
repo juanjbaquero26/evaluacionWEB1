@@ -43,37 +43,7 @@
                 <h2 class="espacio">BIENVENIDO</h2>
                 <P class="espacio">aqui estan los puntos del taller</P>
             </div>
-    <div class=container>
-        <div class="row ">
-            <div class="col-4">
-                <form class="mt-3" action="index.php" method="post">
-                    <h2>registro de compra</h2>
-            <div class="row">
-                <div class="col">
-                <input type="text" class="form-control" placeholder="producto" name="producto">
-                </div>
-                <div class="col">
-                <input type="text" class="form-control" placeholder="precio" name="precio">
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary mt-3 btn-block" name="boton calcular">calcular</button>
-                </form>
-                <?php  if(isset($_POST["botonCalcular"])): ?>
-                    <h4 class="text-danger text-center">
-                        <?php 
-                            $precioProducto1=$_POST["precio1"];
-                            $nombreProducto1=$_POST["producto1"];
-
-                            $costoEnvio=5000;
-
-                            $total=$precioProducto1+$costoEnvio;
-
-                            echo("El total de la compra es de: ".$total);
-                        ?>
-                    </h4>
-                <?php endif ?>
-            </div>
-        </div>
+    
     </div>
 </main>
 <footer>
