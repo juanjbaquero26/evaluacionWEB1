@@ -44,7 +44,8 @@
                     <h2>¿cuantos numeros pares quieres?</h2>
                     <br>
             <div class="row">
-                <div class="col-4">
+                <div class="col-12">
+                <label for="formGroupExampleInput"># de primeros numeros pares </label>
                 <input type="text" class="form-control" placeholder=" # de primeros numeros pares " name="numero1">
                 </div>
             </div>
@@ -59,8 +60,9 @@
                             echo( "  ||  posicion    || numero par||");
                             for ($i=0; $i <$numero1 ; $i++) { 
                                 $canitdad[$i]=$pares;
+                                $aux=$i+1;
                                 echo("<br>");
-                                echo("      ||               ".$i."    ||       ".$canitdad[$i]."||");
+                                echo("      ||               ".$aux."    ||       ".$canitdad[$i]."||");
                                 $pares=$pares+2;
                                 
                             }
