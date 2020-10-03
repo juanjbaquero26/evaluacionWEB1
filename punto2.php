@@ -60,25 +60,25 @@
                             if ($imc<18.5) {
                                 echo("su IMC es de: ".$imc." y es insuficiente");
                             }
-                            elseif ($imc>=18.5  && $imc<24.9) {
+                            elseif ($imc>=18.5  && $imc<25) {
                             
                                 echo ("su IMC es de: ".$imc." y es peso normal");}
-                            elseif ($imc>=25  && $imc<26.9) {
+                            elseif ($imc>=25  && $imc<27) {
                             
                                 echo ("su IMC es de: ".$imc." y es sobre peso grado 1");}
-                            elseif ($imc>=27  && $imc<29.9) {
+                            elseif ($imc>=27  && $imc<30) {
                             
                                 echo ("su IMC es de: ".$imc." y es sobre peso grado 2");}
-                            elseif ($imc>=30  && $imc<34.9) {
+                            elseif ($imc>=30  && $imc<35 {
                             
                                 echo ("su IMC es de: ".$imc." y es obesidad tipo 1(preobesidad)");}
-                            elseif ($imc>=35  && $imc<39.9) {
+                            elseif ($imc>=35  && $imc<40) {
                                 
                                 echo ("su IMC es de: ".$imc." y es obesidad tipo 2");
                             }
-                            elseif ($imc>=40  && $imc<49.9) {
+                            elseif ($imc>=40  && $imc<50 {
                             
-                                echo ("su IMC es de: ".$imc." y es obesidad tipo 3(morbida)");
+                                echo ("su IMC es de: ".$imc." y es obesidad Stipo 3(morbida)");
                             }
                             elseif ($imc>50) {
                             
